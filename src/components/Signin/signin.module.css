@@ -1,0 +1,89 @@
+
+
+.sigin-container{
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50px;
+   height: 100%;
+   color: white;
+}
+.sigin-container label {
+   font-weight: bold;
+}
+.container-logo{
+   /* border: 1px solid black; */
+   width: 40%;
+   
+}
+
+.container-logo img{
+   margin-top: -100px;
+}
+
+.container-form{
+   background-color: #e9abce;
+   border-radius: 10px;
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+   position: relative;
+   padding: 10px;
+   height: 450px;
+}
+
+.container-form input {
+   margin: 7px 10px;
+   padding: 1px 8px;
+   
+}
+
+.container-form form >div{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* border: 1px solid black; */
+}
+
+.botton-div {
+   height: 60px;
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.botton-div > div{
+   align-items: center;
+   /* border: 1px solid black; */
+   width: 70%;
+   display: flex;
+   /* flex-direction: column; */
+   
+   justify-content: center;
+
+}
+
+.botton-div label{
+   width: 70%;
+}
+
+.botton-div label:hover{
+   cursor: pointer;
+}
+.botton-div > button{
+
+   height: 40px;
+
+}
+
+.payola{
+   
+   /* position: 'absolute';
+   top: -20px */
+   margin-top: -110px;
+   margin-left: 20px;
+}

@@ -1,0 +1,59 @@
+
+
+
+.confesion-container{
+   box-shadow: 1px 1px 3px 1px #dfdfdf;
+   width: 70%;
+   margin: 30px 0px;
+}
+
+.cabezera-container{
+   background-color: #0F70A2;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+
+.cabezera-container label{
+   margin: 4px 20px;
+}
+
+.body-container{
+   background-color: #FAFAFA;
+
+}
+.body-container p{
+   width: 80%;
+}
+
+.body-container .div1 {
+   padding: 20px 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer-container{
+   margin-top: -10px;
+   /* border: 2px solid black; */
+   position: relative;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.footer-container > div{
+
+   padding: 7px 30px;
+   background-color: #82D3FE;
+   color: white;
+   font-weight: bold;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer-container > div label{
+   margin: 0px 10px;
+}

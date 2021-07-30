@@ -1,0 +1,26 @@
+
+
+.confesiones-container{
+   height: 100%;
+   position: relative;
+}
+
+.confesiones-container h2 {
+   margin: 20px;
+   text-align: center;
+   color: #EE1365;
+   font-weight: bold;
+}
+
+.l{
+   padding: 0px 30px;
+   overflow: auto;
+   height: calc(100% - 70px);
+   position: absolute;
+   bottom: 0;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   /* border-left: 1px solid rgb(223, 223, 223); */
+   margin: 0px 35px;
+}
