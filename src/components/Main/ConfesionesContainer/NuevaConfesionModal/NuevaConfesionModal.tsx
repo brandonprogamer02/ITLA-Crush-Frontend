@@ -25,7 +25,7 @@ export default function NuevaConfesionModal(props: IProps) {
 
       const destinataryId = dataSelect.find(data => data.username == selectDestinatary).id
       // console.log(destinataryId);
-      
+
       const obj: NewConfesion = {
          id: state.user._id as string,
          confesion: {
@@ -45,6 +45,7 @@ export default function NuevaConfesionModal(props: IProps) {
          const n = response.data.map(data => {
             return { username: data.username, id: data._id }
          })
+         setSelectDestinatary(n[0] ? n[0].username : '')
          setDataSelect(n)
       })()
    }, [])
